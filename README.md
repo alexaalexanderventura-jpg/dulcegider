@@ -1,2 +1,2 @@
-# dulcegider
-dulceria y pasteleria internacional
+# Pastelería App
+Proyecto base para una dulcería 🍰
