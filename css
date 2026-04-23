@@ -128,5 +128,10 @@ footer {
   .grid {
     flex-direction: column;
     align-items: center;
-  }
+  }.hero {
+  background: url('../img/banner/banner.jpg') no-repeat center/cover;
+}
+
+.productos {
+  background: url('../img/banner/fondo2.jpg') no-repeat center/cover;
 }
