@@ -9,3 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+document.querySelectorAll(".btn-agregar").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const nombre = btn.dataset.nombre;
+    const precio = parseFloat(btn.dataset.precio);
+    agregarAlCarrito(nombre, precio);
+  });
+});
