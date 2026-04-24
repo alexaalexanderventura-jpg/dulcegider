@@ -1,48 +1,37 @@
-# 🍰 Pastelería Dulce Sabor
+# 🍓✨ Pastelería Dulce Sabor ✨🍰
 
-Proyecto web de una pastelería donde se muestran productos como tortas, cupcakes y galletas. Incluye un carrito de compras básico usando JavaScript.
-
----
-
-## 📁 Estructura del proyecto
-
-pasteleria/
-│
-├── index.html
-├── pages/
-├── css/
-├── js/
-├── img/
-├── data/
-└── README.md
+> “Endulzando tus días con cada bocado” 🧁💕
 
 ---
 
-## 🚀 Tecnologías usadas
+## 🌸 Sobre el proyecto
 
-- HTML5
-- CSS3
-- JavaScript
-
----
-
-## 🧁 Funcionalidades
-
-- Visualización de productos
-- Diseño responsive
-- Carrito de compras básico
-- Navegación entre páginas
+Bienvenido a **Pastelería Dulce Sabor** 💖  
+Una página web donde puedes ver deliciosos postres como tortas, cupcakes y galletas, y agregarlos a tu carrito 🛒
 
 ---
 
-## 📸 Vista previa
+## 🧁 Vista previa
 
-*(Aquí puedes poner una imagen o screenshot de tu página)*
+✨ Próximamente online en Netlify ✨  
 
 ---
 
-## ⚙️ Cómo usar
+## 🍥 Tecnologías
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/pasteleria.git
+💗 HTML5  
+💗 CSS3  
+💗 JavaScript  
+
+---
+
+## 🍰 Funcionalidades
+
+🌷 Ver productos  
+🛒 Agregar al carrito  
+💾 Guardado automático (localStorage)  
+📱 Diseño adaptable  
+
+---
+
+## 📂 Estructura
