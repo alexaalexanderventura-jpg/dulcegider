@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos | Pastelería Dulce Sabor</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🍰 Nuestros Productos</h1>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <!-- PRODUCTOS -->
+  <section class="productos">
+    <h2>Elige tu favorito 🎂</h2>
+
+    <div class="grid">
+
+      <!-- TORTA -->
+      <div class="card">
+        <img src="../img/productos/tortas/torta1.jpg" alt="Torta">
+        <h3>Torta de Chocolate</h3>
+        <p>S/ 25</p>
+        <button onclick="agregarAlCarrito('Torta de Chocolate', 25)">
+          Agregar 🛒
+        </button>
+      </div>
+
+      <!-- CUPCAKE -->
+      <div class="card">
+        <img src="../img/productos/cupcakes/cupcake1.jpg" alt="Cupcake">
+        <h3>Cupcake de Vainilla</h3>
+        <p>S/ 8</p>
+        <button onclick="agregarAlCarrito('Cupcake de Vainilla', 8)">
+          Agregar 🛒
+        </button>
+      </div>
+
+      <!-- GALLETAS -->
+      <div class="card">
+        <img src="../img/productos/galletas/galleta1.jpg" alt="Galletas">
+        <h3>Galletas Caseras</h3>
+        <p>S/ 12</p>
+        <button onclick="agregarAlCarrito('Galletas Caseras', 12)">
+          Agregar 🛒
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BOTONES CARRITO -->
+  <div style="text-align:center; margin:20px;">
+    <button onclick="verCarrito()">Ver carrito 🛒</button>
+    <button onclick="totalCarrito()">Total 💰</button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Pastelería Dulce Sabor</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="../js/main.js"></script>
+  <script src="../js/carrito.js"></script>
+
+</body>
+</html>
