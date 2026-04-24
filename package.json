@@ -1,1 +1,20 @@
-
+{
+  "name": "pasteleria-dulce-sabor",
+  "version": "1.0.0",
+  "description": "Proyecto web de pastelería con carrito de compras básico",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo \"No hay build necesario\""
+  },
+  "keywords": [
+    "pasteleria",
+    "html",
+    "css",
+    "javascript",
+    "carrito"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
